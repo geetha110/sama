@@ -1,13 +1,13 @@
 # sama
 num=int(input(""))
-p=num
+i=num
 a=0
 d=0
-while(p!=0):
-    k=p
+while(i!=0):
+    k=i
     d=k%10
     a=a+pow(d,3)
-    p=p//10    
+    i=i//10    
 if(num==a):
     print("yes")
 else:
